@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/testeicon/android-chrome-512x512-removebg-preview.png">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>MTR Engenharia Ltda</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/testeLOGO2-removebg-preview.png" alt="Logo" height="180" width="280"></a>
+
+            <div class="topnav">
+                <a href="index.html">Início</a>
+                <a href="portfolio.html">Portfólio</a>
+                <a href="contato.html">Contato</a>
+                <a href="empresa.html">Empresa</a>
+              </div>
+              </nav>
+    </header>
+    <main>
+
+      <div class="slider-box">
+        <div id="slider">
+            <img src="images/Porfólio/Globo Datacenter.png" alt="">
+            <img src="images/Porfólio/Data Center MSTelcom.jpg" alt="">
+            <img src="images/Porfólio/Hospital Alvorada Paulista.jpg" alt="">
+            <img src="images/Porfólio/Hospital Alemão Oswaldo Cruz.jpg" alt="">
+            <img src="images/Porfólio/Centro Empresarial Nações Unidas.jpg" alt="">
+            <img src="images/Porfólio/WTorre JK.jpg" alt="">
+        </div>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+            
+        </div>
+    </div>
+
+   
+    <script>
+
+        var slide = document.getElementById("slider");
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        var btn3 = document.getElementById('btn3');
+        var btn4 = document.getElementById('btn4');
+        var btn5 = document.getElementById('btn5');
+        var btn6 = document.getElementById('btn6');
+
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remive('active');
+            btn5.classList.remove('active');
+            btn6.classList.remove('active');
+        };
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-100%)";
+            btn1.classList.remove('active');
+            btn2.classList.add('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+            btn5.classList.remove('active');
+            btn6.classList.remove('active');
+        };
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-200%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.add('active');
+            btn4.classList.remove('active');
+            btn5.classList.remove('active');
+            btn6.classList.remove('active');
+        };
+        btn4.onclick = function () {
+            slide.style.transform = "translateX(-300%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.add('active');
+            btn5.classList.remove('active');
+            btn6.classList.remove('active');
+        };
+        btn5.onclick = function () {
+            slide.style.transform = "translateX(-400%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+            btn5.classList.add('active');
+            btn6.classList.remove('active');
+        };
+        btn6.onclick = function () {
+            slide.style.transform = "translateX(-500%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+            btn5.classList.remove('active');
+            btn6.classList.add('active');
+        };
+
+    </script>
+
+    <!-- About Us -->
+    
+
+
+
+      
+        <div class="block">
+        <div class="container">
+          <h1>Um pouco sobre nós</h1>
+            <P></P><br>
+            <P></P><br>
+            <P></P><br>
+          </div>
+         
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consequatur rem eum sed iure, praesentium, consequuntur odio 
+            quos qui expedita quidem at officia reprehenderit, itaque 
+            repudiandae vitae harum exercitationem. Exercitationem, eum!
+            
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consequatur rem eum sed iure, praesentium, consequuntur odio
+            uos qui expedita quidem at officia reprehenderit, itaque
+            repudiandae vitae harum exercitationem. Exercitationem, eum!</p>
+            <P></P><br>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consequatur rem eum sed iure, praesentium, consequuntur odio 
+            quos qui expedita quidem at officia reprehenderit, itaque 
+            repudiandae vitae harum exercitationem. Exercitationem, eum!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consequatur rem eum sed iure, praesentium, consequuntur odio 
+            quos qui expedita quidem at officia reprehenderit, itaque 
+            repudiandae vitae harum exercitationem. Exercitationem, eum!</p>
+            <P></P><br>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Consequatur rem eum sed iure, praesentium, consequuntur odio 
+            quos qui expedita quidem at officia reprehenderit, itaque 
+            repudiandae vitae harum exercitationem. Exercitationem, eum!?</p>
+
+            <div class="container1">
+    
+            </div>
+        </div>   
+  
+      <p></p><br>
+      <p></p><br>
+      <p></p><br>
+      <p></p><br>
+     
+        <!-- Header -->
+<div class="header">
+    <h1>Portfólio</h1>
+  </div>
+  <div class="bodytext">
+      <p>Clique nas imagens para ter mais detalhes</p>
+  </div>
+  
+  <!-- Image Grid -->
+  <div class="row"> 
+    <div class="column">
+    <a href="portfolio.html"><img src="images/Porfólio/Globo Datacenter.png" style="width:100%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/Data Center MSTelcom.jpg" style="width:85%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/Hospital Alvorada Paulista.jpg" style="width:90%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/Hospital Alemão Oswaldo Cruz.jpg" style="width:88%"></a>
+   
+    </div>
+    <div class="column">
+    <a href="portfolio.html"><img src="images/Porfólio/Hotel Copacabana Palace.jpg" style="width:75%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/Hotel Fasano.jpg" style="width:80%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/Centro Empresarial Nações Unidas.jpg" style="width:100%"></a>
+    <a href="portfolio.html"><img src="images/Porfólio/WTorre JK.jpg" style="width:85%"></a>
+   
+    </div>  
+  
+   
+  </div>
+    </main>
+    
+    <footer>© 2021 MTR Engenharia Ltda. • Projetos de Engenharia • Gerenciamento de obras</footer>
+  </body>
+</html>

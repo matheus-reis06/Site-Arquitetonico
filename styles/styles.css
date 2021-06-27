@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+   
+}
+                      /* NavBar */
+nav{
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+.topnav{
+  margin-left: 600px;
+  display: inline-block;
+  justify-content: space-between;
+}
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+                          /* !!!INDEX!!! */
+             /* Slideshow  */
+    
+               .slider-box {
+                width     : 100%;
+                max-height: 75vh;
+                position  : relative;
+                overflow  : hidden;
+                
+            }
+            
+            #slider {
+                width     : 100%;
+                display   : inline-flex;
+                transition: 0.7s;
+            }
+            
+            #slider img {
+                width: 100%;
+            }
+            
+            .indicators {
+                position : absolute;
+                left     : 50%;
+                bottom   : 20px;
+                transform: translateX(-50%);
+            }
+            
+            .indicators span {
+                display      : inline-block;
+                width        : 15px;
+                height       : 15px;
+                border-radius: 50%;
+                background   : grey;
+                cursor       : pointer;
+            }
+            
+            .active {
+                background: white!important;
+            }
+
+                        /* UM POUCO SOBRE NÓS  */
+      /* Block Container */
+      .block {
+        
+        display: inline-block;
+        width: 80%;
+        height: 500px;
+        background-color:white;
+        padding: 20px;
+        margin-left: 40px;
+      }
+      
+      
+      .container {
+        margin: 50px;
+        border-bottom: 1px solid black;
+      }
+      .container1 {
+        margin: 50px;
+        border-bottom: 1px solid black;
+      }
+
+      .block img {
+       width: 300px;
+       height: 200px;
+      }
+                          /* PORTFÓLIO */
+            /* Image Grid */
+      * {
+        box-sizing: border-box;
+      }
+      
+      .bodytext {
+        font-family: 'Josefin Slab', serif;
+        text-align: center;
+        
+      }
+      
+      .header {
+        text-align: center;
+        padding: 32px;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+      }
+      
+      .column img {
+        margin-top: 12px;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer{
+          width:100%;
+          display: block;
+          overflow: hidden;
+          background-color:whitesmoke;
+          height:70px ;
+          padding-left: 100px;
+          padding-top: 30px;
+          font-size: 14px;
+      }
+
+                            /* PÁGINA DO PORTFÓLIO  */
+      
+                   /* Linha de separação */
+  .block2 {
+        
+    display: inline-block;
+    width: 80%;
+    height: 0px;
+    background-color:white;
+    padding: 20px;
+    margin-left: 40px;
+  }
+
+  .container2 {
+    margin: 50px;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .header1 {
+    text-align: center;
+    padding: 32px;
+  } 
+                               /* Image Float left */
+  .container3{
+    float: left;
+    margin: 50px ;
+    margin-right: 100px;
+    
+   }   
+
+   .img{
+     float: left;
+      
+   }
+  
+   .text{
+     text-align: justify;
+   }
+                      /* CONTATOS  */
+   .header3 {
+    
+    padding: 32px;
+  }
+
+  .footer1{
+    width:100%;
+    display: block;
+    overflow: hidden;
+    background-color:whitesmoke;
+    height:120px ;
+    padding-top: 30px;
+    font-size: 16px;
+}
